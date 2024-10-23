@@ -1,6 +1,5 @@
 import os
 import shutil
-import pdfplumber
 from dotenv import load_dotenv
 import streamlit as st
 from langchain_community.document_loaders import DirectoryLoader
