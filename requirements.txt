@@ -4,7 +4,7 @@ langchain-community==0.2.3
 langchain-openai==0.1.8
 langchain-chroma
 unstructured==0.14.4
-chromadb
+chromadb>=0.4.0 
 openai==1.31.1
 tiktoken==0.7.0
 pip~=24.2
