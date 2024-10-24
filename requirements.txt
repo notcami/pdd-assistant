@@ -2,6 +2,7 @@ python-dotenv==1.0.1
 langchain==0.2.2
 langchain-community==0.2.3
 langchain-openai==0.1.8
+langchain-chroma
 unstructured==0.14.4
 chromadb
 openai==1.31.1
