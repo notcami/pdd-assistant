@@ -7,7 +7,7 @@ from langchain_community.document_loaders import DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from langchain_openai import OpenAIEmbeddings
-from langchain_chroma import Chroma
+#from langchain_chroma import Chroma
 from langchain_openai import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 import requests
@@ -21,7 +21,7 @@ nltk.download('averaged_perceptron_tagger')
 load_dotenv()
 api_key = os.environ.get("OPENAI_API_KEY")
 
-CHROMA_PATH = "chroma"
+#CHROMA_PATH = "chroma"
 DATA_PATH = "data"
 
 GITHUB_API_URL = "https://api.github.com/repos/notcami/pdd-assistant/contents/data"
